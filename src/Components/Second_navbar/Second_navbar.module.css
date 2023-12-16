@@ -1,0 +1,31 @@
+.dir{
+    direction: rtl !important;
+}
+.main{
+    color:#006672 !important;
+}
+.main a{
+    color:#006672 !important;
+}
+.content{
+    width: 100%;
+}
+.images{
+    width: 75% !important;
+}
+.button{
+    width: 10% !important;
+}
+.size{
+    font-size: 12px;
+}
+.Link a{
+    color:  #F5F5F5 !important;
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+}
+
+/*  */

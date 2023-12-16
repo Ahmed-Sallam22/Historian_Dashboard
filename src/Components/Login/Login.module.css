@@ -1,0 +1,66 @@
+
+.big_boss{
+  height: 100vh;
+  overflow: hidden;
+  /* background-color: white; */
+  background-image: url('../../image/log\ in_page-0001.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.main_page{
+  text-align: center;
+  margin: 6% !important;
+}
+
+
+.form_Login{
+  margin: 1% !important;
+}
+.form_Login input{
+  outline: none !important;
+  height: 60px !important;
+  border:1.5px solid #017f8d !important;
+  color: #006672 !important;
+  background-color: #F4F4F4 !important;
+  padding: 0 5px  !important;
+  border-radius: 15px !important;
+  font-weight: bold;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+}
+
+
+.form_Login  input::placeholder{
+  color: rgb(0, 101, 112);
+  text-align: center;
+  font-family: Almarai;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.big_boss button{
+  display: inline-flex;
+  height: 50px;
+  padding: 5% 10%;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #006672;
+  color:white;
+  border: none;
+  margin-top: 10px;
+  transition: all ease-in-out 300ms;
+  -webkit-transition: all ease-in-out 300ms;
+  -moz-transition: all ease-in-out 300ms;
+  -ms-transition: all ease-in-out 300ms;
+  -o-transition: all ease-in-out 300ms;
+}
+.big_boss button:hover{
+ 
+  background: rgb(1, 123, 136);
+
+}

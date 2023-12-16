@@ -1,0 +1,64 @@
+.main{
+    background-color: #FFF;
+}
+.table :where(th ,td) {
+    padding-left: .5rem ;
+    padding-right: .5rem ;
+    padding-top: 0.7rem !important;
+    padding-bottom: 0.7rem !important;
+    vertical-align: middle !important;
+}
+.table :where(td) {
+    padding-left: .5rem ;
+    padding-right: .5rem ;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+    vertical-align: middle !important;
+}
+.tabel_head{
+color: #006672;
+text-align: center;
+font-family: Almarai;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.tabel_data {
+    color: #514F4F !important;
+text-align: right;
+font-family: Almarai;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.tabel_data2 {
+    color: #FF7A00;
+text-align: center;
+font-family: Almarai;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: .5px;
+
+}
+.space{
+letter-spacing: 0px;
+}
+.footer{
+    background: rgba(249, 139, 37, 0.10);
+    color: #006672;
+    font-size: 14px;
+    font-weight: 700;
+}
+ 
+.brmedium { 
+    display: block; 
+    margin-bottom: .5em; 
+} 
+.brlarge { 
+    border: 1px solid red;
+} 

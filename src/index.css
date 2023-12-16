@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+@import "~@flaticon/flaticon-uicons/css/all/all";
+
+:root{
+  --main-color:#006672;
+  --font-family: 'Almarai', sans-serif;
+  --light-color:#F5F5F5;
+  --component-radius:40px;
+  --color-white:#FFF
+}
+
+body {
+  margin: 0;
+  font-family:var(--font-family) !important;
+  background-color: var(--light-color) !important;
+  direction: rtl;
+}
+.main-color{
+  color: var(--main-color) !important;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+a,a:hover{
+  color: #FFF !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+  cursor: pointer;
+}
+.background-main{
+  background-color:var(--main-color) !important;
+}
+.font-normal{
+  font-size: 20px;
+  color: #FFF;
+}
+
+.main-radius{
+  border-radius: var(--component-radius);
+  -webkit-border-radius: var(--component-radius);
+  -moz-border-radius: var(--component-radius);
+  -ms-border-radius: var(--component-radius);
+  -o-border-radius: var(--component-radius);
+}
+
+

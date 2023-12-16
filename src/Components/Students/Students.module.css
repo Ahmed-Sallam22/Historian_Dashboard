@@ -1,0 +1,87 @@
+
+ .select select{
+    background-color: #fff !important;
+    color: #006672 !important;
+} 
+
+ 
+.search{
+    color: #006672 !important;
+}
+.search input{
+    color: #006672 !important;
+    background-color: #fff !important;
+}
+
+.tabel_head{
+color: #006672;
+text-align: right;
+font-family: Almarai;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.tabel_data {
+    color: #514F4F !important;
+text-align: right;
+font-family: Almarai;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.tabel_data2 {
+    color: #FF7A00;
+text-align: right;
+font-family: Almarai;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 10px;
+}
+
+.delete{
+    color: #F53F3F;
+    font-size: 20px;
+}
+
+.star{
+    color: #F9A825;
+}
+
+
+ 
+.brmedium { 
+    display: block; 
+    margin-bottom: .5em; 
+} 
+
+.table :where(th ) {
+    padding-left: .5rem ;
+    padding-right: .5rem ;
+    padding-top: 0.7rem !important;
+    padding-bottom: 0.7rem !important;
+    vertical-align: middle !important;
+}
+.table :where( td) {
+    padding-left: .5rem ;
+    padding-right: .5rem ;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    vertical-align: middle !important;
+}
+.spaceing{
+letter-spacing: 1px !important;
+}
+
+.tabel_delete {
+    color: #F53F3F !important;
+font-family: Almarai;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+font-weight: bold;
+}
